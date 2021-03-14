@@ -19,9 +19,10 @@ import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
+import androidx.compose.material.primarySurface
 import androidx.compose.runtime.Composable
 
-private val DarkColorPalette = darkColors(
+private val LightColorPalette = darkColors(
     primary = gray900,
     secondary = rust600,
     background = taupe100,
@@ -32,7 +33,7 @@ private val DarkColorPalette = darkColors(
     onSurface = gray800,
 )
 
-private val LightColorPalette = lightColors(
+private val DarkColorPalette = lightColors(
     primary = white,
     secondary = rust300,
     background = gray900,
